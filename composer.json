@@ -2,7 +2,7 @@
     "name": "gabriel_cubas/phptips",
     "autoload": {
         "psr-4": {
-            "GabrielCubas\\Phptips\\": "Source/"
+            "Source\\App\\": "Source/App"
         }
     },
     "authors": [
