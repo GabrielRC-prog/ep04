@@ -14,11 +14,7 @@ $router = new Router(URL_BASE);
 $router->namespace("Source\App");
 
 
-$router->group(null);
-$router->get(route: "/", handler: "$Web:home"); 
 
-$router->group("ooops");
-$router->get(route:"/{errcode}", handler:"Web:error"); 
 
 
 $router->dispatch();
